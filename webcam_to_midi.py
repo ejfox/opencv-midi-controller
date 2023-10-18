@@ -10,6 +10,9 @@ MIDI_PORT_NAME = 'Python Midi Output'
 frame_skip = 2  # Adjust this value to skip more or fewer frames
 MAX_OBJECTS = 2  # New variable to limit the number of detected objects
 
+with open("coco.names", "r") as f:
+    labels = f.read().strip().split("\n")
+
 # 🎥 Load YOLO for Object Detection
 # net = cv2.dnn.readNet("yolov4.weights", "yolov4.cfg")
 net = cv2.dnn.readNet("yolov4-tiny.weights", "yolov4-tiny.cfg")
@@ -90,11 +93,13 @@ def process_frame(outport, frame, current_channel):
     # 🎨 Draw the bounding box on the frame
     for i in range(len(boxes)):
         if i in indexes:
+            label = labels[class_ids[i]]
+            # print(label)
             x, y, w, h = boxes[i]
-            cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
+            cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 255, 255), 4)
             if object_count < MAX_OBJECTS:  # Only send MIDI CC if object_count is less than MAX_OBJECTS
                 cc_x, cc_y = send_midi_cc(outport, center_x, center_y, object_channel)  # Use object_channel instead of current_channel
-                cv2.putText(frame, f"CC: ({cc_x}, {cc_y}) Ch: {object_channel}", (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
+                cv2.putText(frame, f"{label} ({cc_x}, {cc_y}) Ch: {object_channel}", (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
                 object_count += 1
             # Increment the object_channel for the next object, and reset to 1 if it exceeds 127
             object_channel += 1

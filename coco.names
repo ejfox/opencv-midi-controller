@@ -1,1 +1,80 @@
-{"payload":{"allShortcutsEnabled":false,"fileTree":{"data":{"items":[{"name":"labels","path":"data/labels","contentType":"directory"},{"name":"9k.labels","path":"data/9k.labels","contentType":"file"},{"name":"9k.names","path":"data/9k.names","contentType":"file"},{"name":"9k.tree","path":"data/9k.tree","contentType":"file"},{"name":"coco.names","path":"data/coco.names","contentType":"file"},{"name":"coco9k.map","path":"data/coco9k.map","contentType":"file"},{"name":"dog.jpg","path":"data/dog.jpg","contentType":"file"},{"name":"eagle.jpg","path":"data/eagle.jpg","contentType":"file"},{"name":"giraffe.jpg","path":"data/giraffe.jpg","contentType":"file"},{"name":"goal.txt","path":"data/goal.txt","contentType":"file"},{"name":"horses.jpg","path":"data/horses.jpg","contentType":"file"},{"name":"imagenet.labels.list","path":"data/imagenet.labels.list","contentType":"file"},{"name":"imagenet.shortnames.list","path":"data/imagenet.shortnames.list","contentType":"file"},{"name":"inet9k.map","path":"data/inet9k.map","contentType":"file"},{"name":"kite.jpg","path":"data/kite.jpg","contentType":"file"},{"name":"openimages.names","path":"data/openimages.names","contentType":"file"},{"name":"person.jpg","path":"data/person.jpg","contentType":"file"},{"name":"scream.jpg","path":"data/scream.jpg","contentType":"file"},{"name":"voc.names","path":"data/voc.names","contentType":"file"}],"totalCount":19},"":{"items":[{"name":"cfg","path":"cfg","contentType":"directory"},{"name":"data","path":"data","contentType":"directory"},{"name":"examples","path":"examples","contentType":"directory"},{"name":"include","path":"include","contentType":"directory"},{"name":"python","path":"python","contentType":"directory"},{"name":"scripts","path":"scripts","contentType":"directory"},{"name":"src","path":"src","contentType":"directory"},{"name":".gitignore","path":".gitignore","contentType":"file"},{"name":"LICENSE","path":"LICENSE","contentType":"file"},{"name":"LICENSE.fuck","path":"LICENSE.fuck","contentType":"file"},{"name":"LICENSE.gen","path":"LICENSE.gen","contentType":"file"},{"name":"LICENSE.gpl","path":"LICENSE.gpl","contentType":"file"},{"name":"LICENSE.meta","path":"LICENSE.meta","contentType":"file"},{"name":"LICENSE.mit","path":"LICENSE.mit","contentType":"file"},{"name":"LICENSE.v1","path":"LICENSE.v1","contentType":"file"},{"name":"Makefile","path":"Makefile","contentType":"file"},{"name":"README.md","path":"README.md","contentType":"file"}],"totalCount":17}},"fileTreeProcessingTime":9.694624000000001,"foldersToFetch":[],"reducedMotionEnabled":null,"repo":{"id":18666758,"defaultBranch":"master","name":"darknet","ownerLogin":"pjreddie","currentUserCanPush":false,"isFork":false,"isEmpty":false,"createdAt":"2014-04-11T07:59:16.000Z","ownerAvatar":"https://avatars.githubusercontent.com/u/302108?v=4","public":true,"private":false,"isOrgOwned":false},"symbolsExpanded":false,"treeExpanded":true,"refInfo":{"name":"master","listCacheKey":"v0:1521067437.0","canEdit":false,"refType":"branch","currentOid":"f6afaabcdf85f77e7aff2ec55c020c0e297c77f9"},"path":"data/coco.names","currentUser":null,"blob":{"rawLines":["person","bicycle","car","motorbike","aeroplane","bus","train","truck","boat","traffic light","fire hydrant","stop sign","parking meter","bench","bird","cat","dog","horse","sheep","cow","elephant","bear","zebra","giraffe","backpack","umbrella","handbag","tie","suitcase","frisbee","skis","snowboard","sports ball","kite","baseball bat","baseball glove","skateboard","surfboard","tennis racket","bottle","wine glass","cup","fork","knife","spoon","bowl","banana","apple","sandwich","orange","broccoli","carrot","hot dog","pizza","donut","cake","chair","sofa","pottedplant","bed","diningtable","toilet","tvmonitor","laptop","mouse","remote","keyboard","cell phone","microwave","oven","toaster","sink","refrigerator","book","clock","vase","scissors","teddy bear","hair drier","toothbrush"],"stylingDirectives":[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]],"csv":null,"csvError":null,"dependabotInfo":{"showConfigurationBanner":false,"configFilePath":null,"networkDependabotPath":"/pjreddie/darknet/network/updates","dismissConfigurationNoticePath":"/settings/dismiss-notice/dependabot_configuration_notice","configurationNoticeDismissed":null,"repoAlertsPath":"/pjreddie/darknet/security/dependabot","repoSecurityAndAnalysisPath":"/pjreddie/darknet/settings/security_analysis","repoOwnerIsOrg":false,"currentUserCanAdminRepo":false},"displayName":"coco.names","displayUrl":"https://github.com/pjreddie/darknet/blob/master/data/coco.names?raw=true","headerInfo":{"blobSize":"625 Bytes","deleteInfo":{"deleteTooltip":"You must be signed in to make or propose changes"},"editInfo":{"editTooltip":"You must be signed in to make or propose changes"},"ghDesktopPath":"https://desktop.github.com","gitLfsPath":null,"onBranch":true,"shortPath":"ca76c80","siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2Fpjreddie%2Fdarknet%2Fblob%2Fmaster%2Fdata%2Fcoco.names","isCSV":false,"isRichtext":false,"toc":null,"lineInfo":{"truncatedLoc":"80","truncatedSloc":"80"},"mode":"file"},"image":false,"isCodeownersFile":null,"isPlain":false,"isValidLegacyIssueTemplate":false,"issueTemplateHelpUrl":"https://docs.github.com/articles/about-issue-and-pull-request-templates","issueTemplate":null,"discussionTemplate":null,"language":null,"languageID":null,"large":false,"loggedIn":false,"newDiscussionPath":"/pjreddie/darknet/discussions/new","newIssuePath":"/pjreddie/darknet/issues/new","planSupportInfo":{"repoIsFork":null,"repoOwnedByCurrentUser":null,"requestFullPath":"/pjreddie/darknet/blob/master/data/coco.names","showFreeOrgGatedFeatureMessage":null,"showPlanSupportBanner":null,"upgradeDataAttributes":null,"upgradePath":null},"publishBannersInfo":{"dismissActionNoticePath":"/settings/dismiss-notice/publish_action_from_dockerfile","dismissStackNoticePath":"/settings/dismiss-notice/publish_stack_from_file","releasePath":"/pjreddie/darknet/releases/new?marketplace=true","showPublishActionBanner":false,"showPublishStackBanner":false},"rawBlobUrl":"https://github.com/pjreddie/darknet/raw/master/data/coco.names","renderImageOrRaw":false,"richText":null,"renderedFileInfo":null,"shortPath":null,"tabSize":8,"topBannersInfo":{"overridingGlobalFundingFile":false,"globalPreferredFundingPath":null,"repoOwner":"pjreddie","repoName":"darknet","showInvalidCitationWarning":false,"citationHelpUrl":"https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files","showDependabotConfigurationBanner":false,"actionsOnboardingTip":null},"truncated":false,"viewable":true,"workflowRedirectUrl":null,"symbols":{"timedOut":false,"notAnalyzed":true,"symbols":[]}},"copilotInfo":null,"csrf_tokens":{"/pjreddie/darknet/branches":{"post":"rztmM8bbmqHaP89Bb-IyqR86vQnobQ3RK8xFHQ8CQJH6lbBSwomM_Oh6JpKHN7EAchorBRCSmJl75pTHT5rNcg"},"/repos/preferences":{"post":"fSVBnTWJoc9VTx87uu1UAidBsuh2y67t_kX4Jx857k5Br40iJ6-dtaQIoP04vormcQUerWmDDqjFR75YEODCTg"}}},"title":"darknet/data/coco.names at master · pjreddie/darknet"}
+person
+bicycle
+car
+motorbike
+aeroplane
+bus
+train
+truck
+boat
+traffic light
+fire hydrant
+stop sign
+parking meter
+bench
+bird
+cat
+dog
+horse
+sheep
+cow
+elephant
+bear
+zebra
+giraffe
+backpack
+umbrella
+handbag
+tie
+suitcase
+frisbee
+skis
+snowboard
+sports ball
+kite
+baseball bat
+baseball glove
+skateboard
+surfboard
+tennis racket
+bottle
+wine glass
+cup
+fork
+knife
+spoon
+bowl
+banana
+apple
+sandwich
+orange
+broccoli
+carrot
+hot dog
+pizza
+donut
+cake
+chair
+sofa
+pottedplant
+bed
+diningtable
+toilet
+tvmonitor
+laptop
+mouse
+remote
+keyboard
+cell phone
+microwave
+oven
+toaster
+sink
+refrigerator
+book
+clock
+vase
+scissors
+teddy bear
+hair drier
+toothbrush
